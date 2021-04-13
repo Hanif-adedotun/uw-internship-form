@@ -32,3 +32,22 @@ h1{
      font-weight: bold !important;
      background-color: cornflowerblue;
 }
+.error{
+     color: red;
+}
+/* Text for login and signup that gies link to one another */
+.alt-text span a:hover{
+     text-decoration: none;
+}
+
+/* Profile.php */
+/* Column header for each row */
+.col-head{
+     font-weight: bold;
+     font-size: large;
+}
+/* Personal Information section of profile */
+.intern-avatar{
+     width:50%;
+     height:50%;
+}
