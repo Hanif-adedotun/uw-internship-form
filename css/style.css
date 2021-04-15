@@ -3,6 +3,7 @@
 }
 body{
      text-align: center;
+     background-color: rgb(250, 250, 250);
 }
 
 h1{
@@ -45,9 +46,106 @@ h1{
 .col-head{
      font-weight: bold;
      font-size: large;
+    margin-bottom: 1em;;
 }
 /* Personal Information section of profile */
-.intern-avatar{
-     width:50%;
-     height:50%;
+
+.div-container{
+     width:100%;
+     height:100%;
+     background-color: white;
+     margin: 2em auto;
+     border-radius: 20px;
+     padding: 1em;
+
+     /* Box shadow for the box */
+     box-shadow: 1px 1px 3px .15px gray;
+/* -webkit-box-shadow: 4px 2px 26px -7px rgba(91,91,91,1);
+-moz-box-shadow: 4px 2px 26px -7px rgba(91,91,91,1); */
+}
+.bi-caret-right-fill{
+     color: cornflowerblue;
+}
+.timeline{
+     font-size: small;
+     color: gray;
+
+}
+.progress{
+     margin-bottom: 1em;
+}
+
+.bi-person-circle{
+     font-size: 5em;
+}
+.list p , .task{
+     text-align: left;
+}
+.progress-bar{
+     background-color: cornflowerblue;
+     /* font-weight: bold; */
+}
+.mini-head{
+     color: #6495ed;
+     font-weight: bold;
+}
+.color{
+     color: cornflowerblue;
+}
+/* css for team page */
+.team-img{
+     height: 100%;
+     width: 100%;
+}
+.team-container{
+     margin: 2em auto;
+}
+.proj-lead{
+     text-align: center;
+}
+.lead-img{
+     height: 10em;
+     width: 10em;
+     border-radius: 50%;
+     background-color: cornflowerblue;
+     margin: 1em auto ;
+}
+.lead-img:hover{
+     box-shadow: 1px 1px 10px .5px rgb(180, 180, 180);
+}
+.lead-title{
+     font-weight: bold;
+}
+.lead-skill{
+     font-weight: bold;
+     color: cornflowerblue;
+}
+.dev-team{
+     margin: auto;
+     background-color: cornflowerblue;
+     border-radius: 30px;
+     color: white;
+     margin: 2em auto;
+}
+.dev-team:hover{
+     box-shadow: 10px 10px 10px .5px rgb(180, 180, 180);
+}
+.dev-team-skill{
+     font-weight: bold;
+     
+}
+.dev-team-img{
+     font-size: 5em;
+     color: white;
+}
+.mentors{
+     background-color: cornflowerblue;
+     color: white;
+     padding: .5em ;
+     /* margin: 2em auto; */
+}
+.mentor{
+     font-size: large;
+     margin: .5em auto;
+     font-weight: bold;
 }
