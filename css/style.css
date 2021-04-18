@@ -110,7 +110,7 @@ h1{
      background-color: cornflowerblue;
      margin: 1em auto ;
 }
-.lead-img:hover{
+.lead-img{
      box-shadow: 1px 1px 10px .5px rgb(180, 180, 180);
 }
 .lead-title{
@@ -134,9 +134,17 @@ h1{
      font-weight: bold;
      
 }
+.team-li-img{
+     font-size: 10em;
+}
 .dev-team-img{
-     font-size: 5em;
+     /* font-size: 5em; */
      color: white;
+     height: 10em;
+     width: 10em;
+     border-radius: 50%;
+     margin: 2em auto;
+     border: .5em solid white;
 }
 .mentors{
      background-color: cornflowerblue;
